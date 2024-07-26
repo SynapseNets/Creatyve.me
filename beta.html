@@ -32,8 +32,8 @@
                         <b>BETA SIGNUP</b>
                     </h1>
                     <p class="lead">
-                        We're currently working on this project to realese it as fast as possible but in the process of doing this we'd really need to know 
-                        how much people find our ideas intersting so, if you'd like to have free pre-access to our site please signup here.
+                        We're currently working on this project to release it as fast as possible but in the process of doing this we'd really need to know 
+                        how much people find our ideas interesting so, if you'd like to have free pre-access to our site please signup here.
                     </p>
                     <div class="lead">
                         <form method="POST" action="javascript:void(0)" onsubmit="send_form()">
@@ -89,7 +89,7 @@
                         "Content-Type": "application/json"
                     },
                     body: JSON.stringify({
-                        "content": `{"username": "${username}", "email": "${email}"}`
+                        "content": `\`{"username": "${username}", "email": "${email}"}\``
                     })
                 });
                 let message = (response.ok) ? 
